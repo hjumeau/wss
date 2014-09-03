@@ -37,6 +37,6 @@ wsServer.on('request', function(request) {
     });
 });
 
-_httpServer.listen(5010, function(){
-  console.log("WebSocket server listening on port 5010")
+_httpServer.listen(5000, function(){
+  console.log("WebSocket server listening on port 5000")
 });
